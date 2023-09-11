@@ -1,0 +1,49 @@
+
+.searchbar {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.search {
+    background-color: rgb(68, 68, 68);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto 5px auto;
+}
+
+input {
+    height: 30px;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+.searchBtn {
+    all: unset;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.btnDiv {
+    width: 30px;
+    height: 30px;
+    margin: 5px 10px;
+    background-image: url('/public/assets/images/searchiconnobackground.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.subredditList {
+    border-radius: 10px;
+    background-color: rgb(68, 68, 68);
+}
+
+h3 {
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}

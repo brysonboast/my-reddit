@@ -1,0 +1,85 @@
+.post {
+    display: flex;
+    width: 60%;
+    background-color: rgb(68, 68, 68);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.post > * {
+    margin: 10px;
+}
+
+.like {
+    justify-self: center;
+    align-self: center;
+    width: 10%;
+
+}
+
+.info {
+    width: 90%;
+}
+
+.info img {
+    width: 75%;
+}
+
+.upArrow {
+    width: 30px;
+    height: 30px;
+    background-image: url('/public/assets/images/arrow.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}   
+
+.downArrow {
+    width: 30px;
+    height: 30px;
+    background-image: url('/public/assets/images/arrow.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    margin: auto;
+}
+
+.upArrow button, .downArrow button{
+    all: unset;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.comments button {
+    all: unset;
+    cursor: pointer;
+}
+
+button:active {
+    border: solid black 1px;
+    border-radius: 5px;
+}
+
+.extra {
+    display: flex;
+}
+
+.comments {
+    margin: auto;
+    font-size: 12px;
+    text-align: center;
+}
+
+.upVotes {
+    text-align: center;
+}
+
+.link {
+    all: unset;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: rgb(220, 212, 255);
+}

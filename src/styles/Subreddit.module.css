@@ -1,0 +1,31 @@
+.Subreddit {
+    background-color: rgb(34, 34, 34);
+    border-radius: 5px;
+    width: 90%;
+    min-height: 40px;
+    text-align: center;
+    margin: 5px auto;
+}
+
+.title {
+    all: unset;
+    margin: 10px auto auto auto;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.subscribers {
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+}
+
+button:active {
+    all: unset;
+    margin: 10px auto auto auto;
+    font-size: 20px;
+}
